@@ -8,7 +8,16 @@
   </head>
   <body>
     <div class="container">
-        <h1>Ejercicios de practica</h1>
+
+        <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid bg-primary">
+            <a class="navbar-brand" href="#">
+            <img src="logo.jpeg" alt="Logo" width="90" height="84" class="d-inline-block align-text-top">
+            Ejercicios de practica
+            </a>
+        </div>
+        </nav>       
+        
 
         <div>
             <h2 class="text-body-secondary">Ejercicio tabla multiplicar</h2>
@@ -41,6 +50,16 @@
                 </div>
                 </div>
         </div>  
+    </div>
+
+    <div class="container">
+        <h4 class="text-body-secondary">1. Cambiar texto con un botón (onClick): Crear un párrafo y un botón. Al hacer click
+        en el botón, cambiar el texto del párrafo usando innerHTML.</h2>
+        <p id="texto">hola como estas</p>
+        <label for="nuevo_texto">ingrese nuevo texto: </label>
+        <input type="text" class="form-control" id="nuevo_texto" aria-describedby="basic-addon3 basic-addon4">
+
+        <button class="btn btn-outline-warning" type="button" onclick="cambiartexto()">cambiar texto</button>
     </div>
     
     

@@ -12,3 +12,8 @@ function tabla(){
     }
 
 }
+
+function cambiartexto(){
+    let nuevo=document.getElementById("nuevo_texto").value
+    document.getElementById("texto").innerHTML=nuevo
+}
