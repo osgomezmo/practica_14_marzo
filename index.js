@@ -26,3 +26,8 @@ function contador_cliks(){
     contador+=1
     let respuesta=document.getElementById("respuesta_btn_contador").innerHTML=( contador)
 }
+
+function seleccion(){
+    let eleccion= document.getElementById("seleccion").value
+    document.getElementById("mostrar_select").innerHTML=eleccion
+}

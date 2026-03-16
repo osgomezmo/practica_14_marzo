@@ -50,38 +50,52 @@
                 </div>
                 </div>
         </div>  
-    </div>
-
-    <div class="container">
-        <h4 class="text-body-secondary">1. Cambiar texto con un botón (onClick): Crear un párrafo y un botón. Al hacer click
-        en el botón, cambiar el texto del párrafo usando innerHTML.</h4>
-        <p id="texto">hola como estas</p>
-        <label for="nuevo_texto">ingrese nuevo texto: </label>
-        <input type="text" class="form-control" id="nuevo_texto" aria-describedby="basic-addon3 basic-addon4">
-
-        <button class="btn btn-outline-warning" type="button" onclick="cambiartexto()">cambiar texto</button>
-    </div>
-
-    <div class="container">
-        <h4 class="text-body-secondary">2. Mostrar mensaje al hacer click: Crear un botón y un div vacío. Al hacer click
-        mostrar “click en el botón”.</h4>
-
-        <button class="btn btn-outline-warning" type="button" onclick="respuesta_boton()">hacer CLICK</button>
-        <div id="respuesta_boton"></div>
-
-    </div>
-
-    <div class="container">
-        <h4 class="text-body-secondary">3. Contador de clicks: Crear un botón que incremente un contador mostrado en pantalla
-        cada vez quese presione.</h4>
-
-        <button class="btn btn-outline-warning" type="button" onclick="contador_cliks()">hacer CLICK</button>
-        <p>cantidad de clicks: </p>
-        <div id="respuesta_btn_contador"></div>
-
-    </div>
-
     
+
+        <div >
+            <h4 class="text-body-secondary">1. Cambiar texto con un botón (onClick): Crear un párrafo y un botón. Al hacer click
+            en el botón, cambiar el texto del párrafo usando innerHTML.</h4>
+            <p id="texto">hola como estas</p>
+            <label for="nuevo_texto">ingrese nuevo texto: </label>
+            <input type="text" class="form-control" id="nuevo_texto" aria-describedby="basic-addon3 basic-addon4">
+
+            <button class="btn btn-outline-warning" type="button" onclick="cambiartexto()">cambiar texto</button>
+        </div>
+
+        <div>
+            <h4 class="text-body-secondary">2. Mostrar mensaje al hacer click: Crear un botón y un div vacío. Al hacer click
+            mostrar “click en el botón”.</h4>
+
+            <button class="btn btn-outline-warning" type="button" onclick="respuesta_boton()">hacer CLICK</button>
+            <div id="respuesta_boton"></div>
+
+        </div>
+
+        <div>
+            <h4 class="text-body-secondary">3. Contador de clicks: Crear un botón que incremente un contador mostrado en pantalla
+            cada vez quese presione.</h4>
+
+            <button class="btn btn-outline-warning" type="button" onclick="contador_cliks()">hacer CLICK</button>
+            <p>cantidad de clicks: </p>
+            <div id="respuesta_btn_contador"></div>
+
+        </div>
+
+        <div>
+            <h4 class="text-body-secondary">4. Select dinámico (onChange): Crear un select con HTML, CSS y JavaScript. Mostrar
+            en un párrafo cuál opción fue elegida.</h4>
+
+            <select class="form-select " aria-label="Default select example" id="seleccion" onchange="seleccion()">
+            <option selected>escoga una opcion</option>
+            <option value="primera eleccion">primera eleccion</option>
+            <option value="segunda eleccion">segunda eleccion</option>
+            <option value="tercera eleccion">tercera eleccion</option>
+            </select>
+            <p id="mostrar_select"></p>
+        </div>
+
+        
+    </div>
     
     
     <script src="index.js"></script>
