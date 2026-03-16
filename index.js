@@ -17,3 +17,7 @@ function cambiartexto(){
     let nuevo=document.getElementById("nuevo_texto").value
     document.getElementById("texto").innerHTML=nuevo
 }
+
+function respuesta_boton(){
+    let respuesta=document.getElementById("respuesta_boton").innerHTML="Click en el boton"
+}
