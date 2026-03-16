@@ -21,3 +21,8 @@ function cambiartexto(){
 function respuesta_boton(){
     let respuesta=document.getElementById("respuesta_boton").innerHTML="Click en el boton"
 }
+let contador=0
+function contador_cliks(){
+    contador+=1
+    let respuesta=document.getElementById("respuesta_btn_contador").innerHTML=( contador)
+}
