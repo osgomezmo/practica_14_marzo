@@ -40,3 +40,7 @@ function mostrar_texto(){
 function focus_input(){
     document.getElementById("text_focus").style.background= "yellow"
 }
+
+function mostrar_ayuda(){
+    document.getElementById("mensaje_ayuda").innerHTML="recuerde que es necesario usar el @"
+}

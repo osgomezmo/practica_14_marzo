@@ -109,13 +109,25 @@
             <h4 class="text-body-secondary">6. Cambiar color al enfocar (onFocus): Crear un input que cambie su color de fondo
             al recibir foco.</h4>
 
-
             <div class="input-group mb-3">
                 <span class="input-group-text">ingrese texto</span>
                 <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="text_focus" onfocus="focus_input()">
             </div>
             
         </div>
+ 
+        <div>
+            <h4 class="text-body-secondary">7. Mostrar ayuda al enfocar: Crear un input de email. Cuando el usuario entre al
+            campo mostrar un mensaje de ayuda.</h4>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">ingrese Email</span>
+                <input type="email" class="form-control" aria-label="Amount (to the nearest dollar)" id="input_email" onfocus="mostrar_ayuda()">
+            </div>
+            <p id="mensaje_ayuda"></p>
+            
+        </div>
+        
     </div>
     
     
