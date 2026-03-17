@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container">
+    
 
         <nav class="navbar bg-body-tertiary">
         <div class="container-fluid bg-primary">
@@ -18,7 +18,7 @@
         </div>
         </nav>       
         
-
+    <div class="container">
         <div>
             <h2 class="text-body-secondary">Ejercicio tabla multiplicar</h2>
             <div class="input-group">
@@ -94,7 +94,16 @@
             <p id="mostrar_select"></p>
         </div>
 
-        
+        <div>
+            <h4 class="text-body-secondary">5. Mostrar contenido de input: Crear un input de texto. Cuando cambie el valor,
+            mostrar el contenido escrito en un párrafo.</h4>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">ingrese texto</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="texto_input" oninput="mostrar_texto()">
+            </div>
+            <p id="mostrar_input_texto"></p>
+        </div>
     </div>
     
     

@@ -31,3 +31,8 @@ function seleccion(){
     let eleccion= document.getElementById("seleccion").value
     document.getElementById("mostrar_select").innerHTML=eleccion
 }
+
+function mostrar_texto(){
+    let texto= document.getElementById("texto_input").value
+    document.getElementById("mostrar_input_texto").innerHTML= texto
+}
