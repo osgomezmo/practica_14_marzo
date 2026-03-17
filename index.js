@@ -36,3 +36,7 @@ function mostrar_texto(){
     let texto= document.getElementById("texto_input").value
     document.getElementById("mostrar_input_texto").innerHTML= texto
 }
+
+function focus_input(){
+    document.getElementById("text_focus").style.background= "yellow"
+}
