@@ -62,7 +62,7 @@ function validar_password(){
         document.getElementById("mensaje_password").innerHTML=""
     }
 }
-
+//punto parcial
 function calcularAnios(){
     let anio = document.getElementById("anio").value;
 
@@ -79,4 +79,21 @@ function calcularAnios(){
     let faltan = 3000 - anio;
 
     alert("Faltan " + faltan + " años para el año 3000");
+}
+//punto parcial
+function calcular(){
+    let n1 = parseFloat(document.getElementById("num1").value);
+    let n2 = parseFloat(document.getElementById("num2").value);
+
+    if (isNaN(n1) || isNaN(n2)) {
+        document.getElementById("resultado_suma").innerHTML = "Ingrese valores válidos";
+        return;
+    }
+
+    let suma = n1 + n2;
+    let raiz = Math.sqrt(suma);
+
+    document.getElementById("resultado_suma").innerHTML =
+        "Suma: " + suma + "<br>" +
+        "Raíz cuadrada: " + raiz;
 }
