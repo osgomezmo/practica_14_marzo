@@ -44,3 +44,11 @@ function focus_input(){
 function mostrar_ayuda(){
     document.getElementById("mensaje_ayuda").innerHTML="recuerde que es necesario usar el @"
 }
+
+function validar_vacio(){
+    var nombre= document.getElementById("input_name").value
+
+    if  (nombre.trim()==""){
+        document.getElementById("mensaje_nombre").innerHTML= "Debe ingresar un nombre"
+    }
+}

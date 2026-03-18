@@ -125,8 +125,19 @@
                 <input type="email" class="form-control" aria-label="Amount (to the nearest dollar)" id="input_email" onfocus="mostrar_ayuda()">
             </div>
             <p id="mensaje_ayuda"></p>
-            
         </div>
+
+        <div>
+            <h4 class="text-body-secondary">8. Validar campo vacío (onFocusOut): Si el usuario sale del campo nombre sin
+            escribir nada mostrar mensaje de error.</h4>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">ingrese nombre</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="input_name" onfocusout="validar_vacio()">
+            </div>
+            <p id="mensaje_nombre" style="color: red"></p>
+        </div>
+        
         
     </div>
     
