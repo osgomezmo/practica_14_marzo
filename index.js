@@ -52,3 +52,13 @@ function validar_vacio(){
         document.getElementById("mensaje_nombre").innerHTML= "Debe ingresar un nombre"
     }
 }
+
+function validar_password(){
+    var password=document.getElementById("input_password").value
+
+    if (password.length<6){
+        document.getElementById("mensaje_password").innerHTML="el minimo de dijitos es 6"
+    }else{
+        document.getElementById("mensaje_password").innerHTML=""
+    }
+}
