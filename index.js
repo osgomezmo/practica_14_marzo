@@ -62,3 +62,21 @@ function validar_password(){
         document.getElementById("mensaje_password").innerHTML=""
     }
 }
+
+function calcularAnios(){
+    let anio = document.getElementById("anio").value;
+
+    if(anio === ""){
+        alert("Por favor ingrese un año");
+        return;
+    }
+
+    if(anio > 3000){
+        alert("El año debe ser menor a 3000");
+        return;
+    }
+
+    let faltan = 3000 - anio;
+
+    alert("Faltan " + faltan + " años para el año 3000");
+}
